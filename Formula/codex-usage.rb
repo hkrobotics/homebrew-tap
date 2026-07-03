@@ -1,8 +1,8 @@
 class CodexUsage < Formula
   desc "Terminal dashboard for Codex usage and rate limits"
   homepage "https://github.com/hkrobotics/codex-usage"
-  url "https://github.com/hkrobotics/codex-usage/releases/download/v1.0.0/codex-usage"
-  sha256 "5b064d6a3021bfcec56f313ec605f9e0203d00788bc0af870eb3a2cd13bc9f0b"
+  url "https://github.com/hkrobotics/codex-usage/releases/download/v1.0.1/codex-usage"
+  sha256 "29fbdde780eefabbd377fc1bf84273a45c944480b6040ab87e240bdc52ae46b3"
   license "MIT"
 
   depends_on "jq"
@@ -13,6 +13,6 @@ class CodexUsage < Formula
   end
 
   test do
-    assert_match "codex-usage 1.0.0", shell_output("#{bin}/codex-usage --version")
+    assert_match "codex-usage 1.0.1", shell_output("#{bin}/codex-usage --version")
   end
 end
