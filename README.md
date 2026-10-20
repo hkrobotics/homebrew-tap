@@ -9,3 +9,11 @@ brew install hkrobotics/tap/codex-usage
 ```
 
 Project: [hkrobotics/codex-usage](https://github.com/hkrobotics/codex-usage)
+
+## Router Dash
+
+```sh
+brew install hkrobotics/tap/router-dash
+```
+
+Terminal dashboard for the home router (Apple Silicon Macs).
